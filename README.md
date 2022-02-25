@@ -1,3 +1,9 @@
+# Trigger Law
+
+A simple site to help folks understand which states have trigger bans on abortion that will take effect once Roe is overturned. 
+
+All information regarding trigger laws is taken from the [Guttmacher Institute](https://www.guttmacher.org/article/2021/10/26-states-are-certain-or-likely-ban-abortion-without-roe-heres-which-ones-and-why).
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
