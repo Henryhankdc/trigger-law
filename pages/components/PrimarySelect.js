@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import Select from "react-select";
 import AlabamaCard from "./Alabama";
 import ArizonaCard from "./Arizona";
+import ArkansasCard from "./Arkansas";
+import GeorgiaCard from "./Georgia";
+import IdahoCard from "./Idaho";
+import IowaCard from "./Iowa";
+import KentuckyCard from "./Kentucky";
+import LouisianaCard from "./Louisiana";
 import styles from '../../styles/Select.module.css'
 
 
@@ -58,7 +64,19 @@ export default class PrimarySelect extends Component {
       return <AlabamaCard/>
     } else if(this.state.id == 'arizona'){
         return <ArizonaCard/>
-    }else if(this.state.id == ''){
+    }else if(this.state.id == 'arkansas'){
+      return <ArkansasCard/>
+    }else if(this.state.id == 'georgia'){
+      return <GeorgiaCard/>
+    }else if(this.state.id == 'idaho'){
+      return <IdahoCard/>
+    }else if(this.state.id == 'iowa'){
+      return <IowaCard/>
+    }else if(this.state.id == 'kentucky'){
+      return <KentuckyCard/>
+    }else if(this.state.id == 'louisiana'){
+      return <LouisianaCard/>
+}else if(this.state.id == ''){
         return null;
     }
      else {
