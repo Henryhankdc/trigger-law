@@ -8,6 +8,19 @@ import IdahoCard from "./Idaho";
 import IowaCard from "./Iowa";
 import KentuckyCard from "./Kentucky";
 import LouisianaCard from "./Louisiana";
+import MichiganCard from "./Michigan";
+import MississippiCard from "./Mississippi";
+import MissouriCard from "./Missouri";
+import NorthDakotaCard from "./Northdakota";
+import OhioCard from "./Ohio";
+import OklahomaCard from "./Oklahoma";
+import SouthCarolinaCard from "./Southcarolina";
+import SouthDakotaCard from "./Southdakota";
+import TennesseeCard from "./Tennessee";
+import TexasCard from "./Texas";
+import UtahCard from "./Utah";
+import WestVirginiaCard from "./Westvirginia";
+import WisconsinCard from "./Wisconsin";
 import styles from '../../styles/Select.module.css'
 
 
@@ -76,8 +89,34 @@ export default class PrimarySelect extends Component {
       return <KentuckyCard/>
     }else if(this.state.id == 'louisiana'){
       return <LouisianaCard/>
-}else if(this.state.id == ''){
-        return null;
+    }else if(this.state.id == 'michigan'){
+      return <MichiganCard/>
+    }else if(this.state.id == 'mississippi'){
+      return <MississippiCard/>
+    }else if(this.state.id == 'missouri'){
+          return <MissouriCard/>
+    }else if(this.state.id == 'north dakota'){
+      return <NorthDakotaCard/>
+    }else if(this.state.id == 'ohio'){
+      return <OhioCard/>
+    }else if(this.state.id == 'oklahoma'){
+      return <OklahomaCard/>
+    }else if(this.state.id == 'south carolina'){
+      return <SouthCarolinaCard/>
+    }else if(this.state.id == 'south dakota'){
+      return <SouthDakotaCard/>
+    }else if(this.state.id == 'tennessee'){
+      return <TennesseeCard/>
+    }else if(this.state.id == 'texas'){
+      return <TexasCard/>
+    }else if(this.state.id == 'utah'){
+      return <UtahCard/>
+    }else if(this.state.id == 'west virginia'){
+      return <WestVirginiaCard/>
+    }else if(this.state.id == 'wisconsin'){
+      return <WisconsinCard/>
+    }else if(this.state.id == ''){
+            return null;
     }
      else {
         return (
