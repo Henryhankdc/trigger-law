@@ -10,7 +10,7 @@ export default function Home() {
         <title>Abortion Trigger Laws</title>
         <meta name="description" content="Does your state have an abortion trigger law" />
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"/> 
+        {/* <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"/>  */}
       </Head>
 
       <main className={styles.main}>
