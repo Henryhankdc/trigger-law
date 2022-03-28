@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import VisibilitySensor from 'react-visibility-sensor';
 
 export default class ArizonaCard extends Component {
         render() {
@@ -14,6 +15,7 @@ export default class ArizonaCard extends Component {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             )
         }

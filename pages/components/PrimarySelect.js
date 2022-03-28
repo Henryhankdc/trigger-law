@@ -21,17 +21,16 @@ import TexasCard from "./Texas";
 import UtahCard from "./Utah";
 import WestVirginiaCard from "./Westvirginia";
 import WisconsinCard from "./Wisconsin";
-import styles from '../../styles/Select.module.css'
-
 
 export default class PrimarySelect extends Component {
+
 
   constructor(props) {
     super(props);
     this.state = {
       selectOptions: [],
       id: "",
-      name: ""
+      name: "",
     };
   }
 
@@ -172,11 +171,10 @@ export default class PrimarySelect extends Component {
                     options={this.state.selectOptions}
                     onChange={this.handleChange.bind(this)}
                     />
-                    {/* <p>{this.state.id}</p> */}
                 </div>
             </div>
             <div className="StateInfo">
-                    {this.renderStateInfo()}
+              {this.renderStateInfo()}
             </div>
       </div>
     );
